@@ -1,41 +1,43 @@
-🐾 Sistema Petshop - MVC com CRUD
-📌 Sobre o Projeto
+# 🐾 Sistema Petshop - MVC com CRUD  
 
-Este é um sistema de gerenciamento para Petshop, desenvolvido em PHP com o padrão MVC (Model-View-Controller).
-O sistema permite realizar operações de CRUD (Create, Read, Update, Delete) sobre os dados cadastrados, como:
-🐶 Pets • 👩‍👩‍👧 Clientes • 🛠️ Serviços
+## 📌 Sobre o Projeto  
+Este é um **sistema de gerenciamento para Petshop**, desenvolvido em **PHP** com o padrão **MVC (Model-View-Controller)**.  
+O sistema permite realizar operações de **CRUD (Create, Read, Update, Delete)** sobre os dados cadastrados, como:  
+- 🐶 Pets  
+- 👩‍👩‍👧 Clientes  
+- 🛠️ Serviços  
 
-🎯 Objetivo: aplicar boas práticas de organização de código e consolidar conhecimentos de PHP, HTML, CSS, JavaScript e SQL.
+> 🎯 **Objetivo**: aplicar boas práticas de organização de código e consolidar conhecimentos de **PHP, HTML, CSS, JavaScript e SQL**.  
 
-⚙️ Funcionalidades
+---
 
-📋 Cadastro de novos registros (pets, clientes, serviços ou produtos)
+## ⚙️ Funcionalidades  
 
-🔍 Listagem dos registros cadastrados
+- 📋 **Cadastro** de novos registros (pets, clientes, serviços ou produtos)  
+- 🔍 **Listagem** dos registros cadastrados  
+- ✏️ **Edição** de informações já existentes  
+- 🗑️ **Exclusão** de registros  
+- 🎨 **Interface** estruturada com HTML e CSS  
+- 🗄️ **Banco de dados relacional** integrado via SQL  
 
-✏️ Edição de informações já existentes
+---
 
-🗑️ Exclusão de registros
+## 🛠️ Tecnologias Utilizadas  
 
-🎨 Interface estruturada com HTML e CSS
+- 🐘 **PHP** → Backend e regras de negócio  
+- 🌐 **HTML5** → Estrutura das páginas  
+- 🎨 **CSS3** → Estilização da interface  
+- ⚡ **JavaScript** → Interatividade  
+- 🗄️ **MySQL** → Banco de dados relacional  
 
-🗄️ Banco de dados relacional integrado via SQL
+---
 
-🛠️ Tecnologias Utilizadas
+## 🚀 Como Executar  
 
-🐘 PHP → Backend e regras de negócio
-
-🌐 HTML5 → Estrutura das páginas
-
-🎨 CSS3 → Estilização da interface
-
-⚡ JavaScript → Interatividade
-
-🗄️ MySQL → Banco de dados relacional
-
-🚀 Como Executar
-1️⃣ Clone o repositório
+### 1️⃣ Clone o repositório  
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+
 
 2️⃣ Importe o banco de dados
 
@@ -54,10 +56,6 @@ $db   = "petshop";
 
 4️⃣ Inicie o servidor PHP
 php -S localhost:8000
-
-5️⃣ Acesse no navegador
-
-👉 http://localhost:8000/index.html
 
 📚 Aprendizados
 
