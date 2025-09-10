@@ -37,7 +37,7 @@ O sistema permite realizar operações de **CRUD (Create, Read, Update, Delete)*
 ### 1️⃣ Clone o repositório  
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
+```
 
 2️⃣ Importe o banco de dados
 
@@ -48,12 +48,12 @@ Execute os scripts no seu MySQL
 3️⃣ Configure a conexão com o banco
 
 No arquivo util/Conexao.php, ajuste as credenciais:
-
+```bash
 $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "petshop";
-
+```
 4️⃣ Inicie o servidor PHP
 php -S localhost:8000
 
@@ -68,6 +68,6 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de:
 
 👩‍💻 Autores
 
-Heloisa Tonin de Lima
+- Heloisa Tonin de Lima
 
-Mayara Navakoviski Machado
+- Mayara Navakoviski Machado
